@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+         body{
+    background-image: url('./assets/images/home.jpg');
+    
+    background-size: cover;
+    height: 120vh;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Registration Form</h1><br>
+        <label for="un">Username</label>
+        <input type="text" name="username" id="un" placeholder="Enter your name"><br><br>
+        <label for="pw">Password</label>
+        <input type="password" name="pname" id="pw" placeholder="create your password"><br><br>
+        <label for="em">Email id</label>
+        <input type="email" name="ename" id="em" placeholder="abc@gmail.com"><br><br>
+        <div class="r1"><b>Gender:</b>
+            <input type="radio" name="gender" id="gn">Female        
+            <input type="radio" name="gender" id="gn">Male
+            <input type="radio" name="gender" id="gn">Others
+        </div><br>
+        <label for="db">DOB</label>
+        <input type="date" name="dob" id="db"><br><br>
+        <label for="mb">MobileNo</label>
+        <input type="number" name="mobile" id="mb" placeholder="enter 10 digit number"><br><br>
+        <label for="ad">Address</label>
+        <textarea name="address" id="ad" rows="6" cols="6">enter your address
+        </textarea><br><br>
+        <button class="btn btn-warning" type="submit">Submit</button>
+        <button class="btn btn-danger" type="reset">Reset</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restuarant</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark nav-tabs">
+    <!-- Brand -->
+    <img src="./assets/images/logo1.jpeg" class="img-circle" alt="no img" width="5%">
+    <!--Links-->
+    <ul class="navbar-nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link text-light " routerLink="/home" ><i class="fa fa-home fa-fw" style='font-size:30px'></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" routerLink="/aboutus">Aboutus</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" routerLink="/menu">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" routerLink="/photos">Photos</a>
+      </li>
+      <div class="right">
+        <li class="nav-item">
+          <a class="nav-link text-light" routerLink="/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" routerLink="/signup">Signup</a>
+        </li>
+      </div>
+    </ul>
+  </nav> 
+  <router-outlet></router-outlet>
+</body>
+<div>
+  <app-footer></app-footer>
+</div>
+
+</html>

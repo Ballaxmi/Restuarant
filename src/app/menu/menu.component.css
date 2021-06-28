@@ -1,0 +1,20 @@
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    transform: translate(-50%, -50%);
+  }
+  img{
+      border-radius: 6px;
+      border:3px solid yellow
+  }
+ 

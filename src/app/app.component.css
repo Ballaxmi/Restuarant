@@ -1,0 +1,23 @@
+.nav-link{
+    font-size: 22px;
+}
+a:hover{
+    background-color: rgba(255, 255, 0, 0.705);
+}
+.right{
+    display: flex;
+    margin-left: 420px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar{
+    font-size: 30px;
+    padding: 3px;
+    font-weight: 600;
+}
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }

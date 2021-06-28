@@ -1,0 +1,43 @@
+h1{
+    top:38%;
+    left: 40%;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    outline:none;
+    border-color:rgba(14, 14, 15, 0.705);
+    border-radius: 6px;
+    border-width: 3px;   
+}
+.wrapper{
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    /* transform: translate(-50%,-50%); */
+    max-width: 200%;
+    background-color:rgba(240, 225, 175, 0.466);
+    box-shadow:darkmagenta;
+    padding: 20px;
+    border-radius:20px ;    
+}
+label{
+    color:black;
+    font-size: larger;
+}
+h2{
+    color:black;
+    text-align: center;
+}
+  
+/* input{
+    font-size: 40px;
+    border-radius: 25px;
+}
+.btn{
+    font-size: 40px;
+    border-radius: 25px;
+} */

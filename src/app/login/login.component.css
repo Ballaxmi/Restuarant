@@ -1,0 +1,46 @@
+h1{
+    top:38%;
+    left: 40%;
+    font-size: 80px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    outline:none;
+    border-color:rgba(14, 14, 15, 0.774);
+    border-radius: 6px;
+    border-width: 3px;   
+}
+.wrapper{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    /* transform: translate(-50%,-50%); */
+    max-width: 100%;
+    background-color:rgba(190, 196, 108, 0.466);
+    box-shadow:darkmagenta;
+    padding: 20px;
+    border-radius:40px ;    
+}
+label{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 550;
+}
+h2{
+    color:black;
+    text-align: center;
+    font-size: 80px;
+}
+
+
+/* input{
+    font-size: 80px;
+    border-radius: 25px;
+}
+.btn{
+    font-size: 60px;
+    border-radius: 25px;
+} */
